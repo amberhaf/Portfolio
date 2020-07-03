@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Author: Amber Hafdioui 18358431 -->
+        <!--Tested on Windows 10, Google Chrome -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>A Whole New World</title>
+        <meta name="description" content="Magic Carpet Ride">
+        <link rel="stylesheet" href="assignment.css">    
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div id="wrapper">
+            <img onclick="myMove()" id="magicCarpet" src="img/magiccarpet9.svg" alt="Flowers in Chania">
+            <h1 id="summary">Click the magic carpet to travel on a mystery carpet ride.You will be taken to a location inspired by Aladdin. It will show you a whole new world and parts of the story only explored in the original Aladdin Folktale.</h1>  
+        </div>
+        
+
+        
+        <audio id="AudioIcy">
+  <source src="aud/wind.mp3" type="audio/mp3">
+</audio>
+              <audio id="AudioEgypt">
+  <source src="aud/egyptian.mp3" type="audio/mp3">
+</audio>
+              <audio id="AudioTemple">
+  <source src="aud/temple.mp3" type="audio/mp3">
+</audio>
+            <audio id="AudioChina">
+  <source src="aud/china.mp3" type="audio/mp3">
+</audio>
+        <audio id="AudioDesert">
+  <source src="aud/desert.mp3" type="audio/mp3">
+</audio>
+        <audio id="AudioPersia">
+  <source src="aud/persia.mp3" type="audio/mp3">
+</audio>
+        <audio id="AudioRocks">
+  <source src="aud/rocks.mp3" type="audio/mp3">
+</audio>
+    <audio id="AudioThunder">
+  <source src="aud/thunder.mp3" type="audio/mp3">
+</audio>
+    <audio id="AudioWater">
+  <source src="aud/water.mp3" type="audio/mp3">
+        </audio>
+        <div id="ref">
+            <h3>Photo reference</h3>
+            <h4 id="photoRef">Zoe Toseland, Flickr, 2012. Aladdin. [image] Available at: 'https://www.flickr.com/photos/zoe_toseland/8249850478' [Accessed 15 April 2020].</h4>
+            <h3>Audio reference</h3>
+            <h4 id="audioRef">No Audio</h4>
+        </div>
+              
+        <div class="footer">
+            <img id="volumes" class="icons" src="img/volume.svg" onclick="volume()" style="width:4%;height:4%;">
+            <img id="homes" class="icons" src="img/Home.svg" onclick="home()" style="width:4%;height:4%;">
+            <img id="check" class="icons" src="img/PaperClip.svg" onclick="reference()" style="width:4%;height:4%;">
+        </div>
+        <script src="assignment.js"></script>
+    </body>
+</html>

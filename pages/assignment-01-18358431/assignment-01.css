@@ -1,0 +1,152 @@
+*{
+    text-align: center;
+    font-size: 30px;
+}
+
+.triangle {
+  position: relative;
+  height: 700px;
+  margin: 0 auto;
+    text-align: center;
+  clip-path: polygon(50% 0%, 10% 100%, 90% 100%);
+}
+ 
+.triangle div {
+  position: absolute;
+  top: 0;
+  line-height: 100px;
+  font-size: 0.8em;
+
+  background: red;
+ width: 100%;
+  height: 170px;
+  margin: 0 auto;
+  transition: all ease 0.6s;
+  color: #EA1C07;
+}
+ 
+.triangle #one {
+  z-index: 1; 
+}
+
+.triangle #one:hover #sub1, .triangle #one:hover #add1
+{
+    visibility: visible;
+}
+
+.triangle: div {
+    color: white;
+}
+ 
+.triangle #two {
+  margin-top: 190px;
+  background: #F4B600;
+}
+
+.triangle #two:hover #sub2, .triangle #two:hover #add2
+{
+    visibility: visible;
+}
+
+
+  .triangle: div {
+    color: white;
+  }
+ 
+.triangle #gap {
+  margin-top: 280px;
+    background: white;
+}
+
+
+.triangle: div {
+  color: white;
+}
+ 
+.triangle #three {
+  margin-top: 300px;
+  background: #F9E029;
+}
+
+.triangle #three:hover #sub3, .triangle #three:hover #add3
+{
+    visibility: visible;
+}
+
+
+.triangle: div {
+  color: white;
+}
+
+.triangle #four {
+  margin-top: 400px;
+  background: #049DFC;
+}
+
+.triangle #four:hover #sub4, .triangle #four:hover #add4
+{
+    visibility: visible;
+}
+
+
+.triangle: div {
+  color: white;
+}
+
+.triangle #five {
+  margin-top: 500px;
+  background: #A77643;
+}
+
+.triangle #five:hover #sub5, .triangle #five:hover #add5
+{
+    visibility: visible;
+}
+
+.triangle: div {
+  color: white;
+}
+
+.triangle #six {
+  margin-top: 600px;
+  background:#5CD533;
+}
+
+.triangle #six:hover #sub6, .triangle #six:hover #add6
+{
+    visibility: visible;
+}
+
+    
+#button1 {
+    margin-top: 110px;
+    visibility: visible;
+}
+
+.triangle button {
+    height: 50px;
+    width: 50px;
+    background-color: #929186;
+    font-size: 25px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.triangle .b {
+    visibility: visible;
+}
+
+
+.bottom
+{
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+
+
+
+

@@ -1,0 +1,100 @@
+/* all elements styled subject to wrapper */
+
+.wrapper {
+
+  display:inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+    margin-left:20%;
+    margin-top: 10%;
+}
+
+.dot {
+  height: 35%;
+  width: 35%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  border: 8px solid black;
+}
+
+.big-dot {
+  border: 6px solid black;
+}
+
+#d1 {
+  background-color: #63C41C;  
+  float: left;
+     position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#d2 {
+  background-color: #E91001;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+#d3 {
+  background-color: #FBD24C;  
+    float: left;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#d4 {
+  background-color: #2E80E6;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#d5 {
+  background-color: black;
+  margin: 20% 20%;
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* use orbitron fonts for all buttons */
+button
+{
+    border: 2px solid black;
+    border-radius: 20%;
+    width: 20%;
+    height: 20%;
+    font-size: 80%;
+    font-family: 'Orbitron', serif;
+}
+
+#start
+{
+  width: 40%;
+}
+
+#circle
+{
+  position: absolute;
+  height: 7%;
+  width: 7%;
+  background-color: red;
+  border-radius: 50%;
+  display: block;
+  top: 65%;
+  left: 48%;
+}
+
+
+

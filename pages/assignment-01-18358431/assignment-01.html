@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My food pyramid</title>
+        <meta name="description" content="Food pyramid">
+        <link rel="stylesheet" href="assignment-01.css">
+    </head>
+    <body>
+
+        <h1>Figure1</h1>
+            <div class ="triangle" id="start">
+
+                <div id="one">  
+                        <button id="sub1" onClick="sub(1)">-</button>
+                        <button id="button1" class="b"><span id="num1">0</span></button>
+                        <button id="add1" onClick="add(1)">+</button>
+                </div>
+
+               <div id="two">  
+                        <button id="sub2" onClick="sub(2)">-</button>
+                        <button id="button2" class="b"><span id="num2">0</span></button>
+                        <button id="add2" onClick="add(2)">+</button>
+                </div>
+                <div id="gap"></div>
+                
+               <div id="three">                    
+                        <button id="sub3" onClick="sub(3)">-</button>
+                        <button id="button3" class="b"><span id="num3">0</span></button>
+                        <button id="add3" onClick="add(3)">+</button>
+                </div>
+
+               <div id="four">                    
+                        <button id="sub4" onClick="sub(4)">-</button>
+                        <button id="button4" class="b"><span id="num4">0</span></button>
+                        <button id="add4" onClick="add(4)">+</button>
+                </div>
+
+               <div id="five">                    
+                        <button id="sub5" onClick="sub(5)">-</button>
+                        <button id="button5" class="b"><span id="num5">0</span></button>
+                        <button id="add5" onClick="add(5)">+</button>
+                </div>
+
+               <div id="six">
+                        <button id="sub6" onClick="sub(6)">-</button>
+                        <button id="button6" class="b"><span id="num6">0</span></button>
+                        <button id="add6" onClick="add(6)">+</button>
+                </div>
+            </div>
+        
+        <div class="bottom">
+        <h1>My Food Pyramid</h1>
+          <input type="date" id="Date">
+            <button id="Submit" onClick="displayDate()">Submit</button>
+          <p id="newDate"></p>
+             </div>                                         
+
+        <script src="assignment-01.js"></script>
+    </body>
+</html>

@@ -1,0 +1,76 @@
+body {
+    background-image: url("img/Aladdinbackground.png");
+    background-repeat: no-repeat;
+}
+
+#summary{
+    margin:0px;
+    margin-left: 35%;
+    margin-right: 2%;
+    color: orange;
+    position: absolute;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    text-align: right;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#summary:hover{
+    background-color: white;
+}
+
+
+#wrapper{
+    position: relative;
+}
+
+
+#magicCarpet{
+    margin: 0px;
+    margin-top: 1%;  
+    margin-left: 2%; 
+    padding: 0px;
+    border: 0px;
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    display: inline-block;
+    float: left;
+}
+
+#ref{
+        border: 6px solid 'orange';
+    background-color: white;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+-ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+    visibility: hidden;
+    font-size: 20px;
+    padding: 1%;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.icons
+{
+    background-color: white;
+    margin: 1%;
+}
