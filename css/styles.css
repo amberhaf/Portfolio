@@ -10611,3 +10611,7 @@ p{
   display: block;
   text-align: center;
 }
+
+.copy{
+  color: var(--yellow);
+}
