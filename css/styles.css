@@ -10615,3 +10615,10 @@ p{
 .copy{
   color: var(--yellow);
 }
+
+
+@media (max-width: 767px) { 
+  .masthead-subheading{
+      visibility: hidden;
+  }
+}

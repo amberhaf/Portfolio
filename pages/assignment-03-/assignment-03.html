@@ -158,8 +158,50 @@
         <button id=deleteColumns onclick="deleteColumns()">Delete Columns</button>
         <button id=deleteRows onclick="deleteRows()">Delete Rows</button>
         <!-- Counts the number of unsubmitted assignments -->
+        <br/> 
         <span id="h"><span id=count>0</span> unsubmitted assignments </span>
 
+        <h1>Interactive Grade Calculator for Web Information Processing</h1>
+        <p>
+        You are	required to develop an HTML/CSS/JS application that implements that manages hypothetical student assignment grades using an online styled table.
+        You are only required to build the front end of this table not the backend.
+        The table should contain columns for the students' names (Name), ID numbers (ID), results (a grade between 0-100) for five assignments,	together with a	final grade	
+        (Average [%]) column that contains the average of all the assignment grades in the preceding columns.	
+        </p>
+        <h3>Requirements</h3>
+        <p>
+        The table should contain the unsubmitted default value "-" each assginment for ten hypothethical students.	
+        The table should be created using HTML, and styled using CSS (names and IDs should be left-aligned, headings should be centre aligned, and numbers should be right-aligned).	
+        All interactivity should be implemented using JS.	
+        Only table cells containing grades should be "content editable" to allow manual entry of the grades
+        </p>
+        <p>
+        The table style should utilise a sans-serif font.
+        Column headings should have a dark grey background.
+        All other cells should have an	alternating row-colour background with black text.
+        Student	names and IDs should be left-aligned, headings should be centre-aligned, and numbers should be right-aligned with a white background.
+        Default asssignment cells should be centre-aligned with a yellow background.
+        Average grades should have a red background unless above 60%.
+        </p>
+        <p>
+        Update button should recalculate average with all inputted data.
+        Add row will add a new student record with the same functionality as original rows.
+        Add column will add a new assignment which will be taken into account with average calucalation, only submitted assignments will be taken into account with average calculation.
+        Revert will bring the table back to it's orginal size, all other assignments will be removed.
+        Pressing Grade will reveal the letter grade and GPA of the average grade.
+        A count of unsubmitted assignments should be submitted.
+        </p>
+        <h3>Extra Credit</h3>	
+        <ol>
+        <li> Use JavaScript, to highlight a complete table data row when a student's name is selected.	
+        Clicking again deselects the row. You should not be able to select and highlight the Title row.</li>
+        <li> Use	JavaScript, to	highlight a complete table Assignment Grade column when	a column's title is selected. Clicking again deselects the column. You should not be able to	
+        select and highlight the final (average) grade	column.</li>		
+        <li> Use JavaScript, to delete a data row	 selected by a	
+        user.</li>
+        <li> Use JavaScript, to delete an	assignment column selected by a	user. The function should ensure that the Final	Grade column totals are	
+        updated	following this deletion.</li>
+        </ol>
         <script src="assignment-03.js"></script>
     </body>
 </html>

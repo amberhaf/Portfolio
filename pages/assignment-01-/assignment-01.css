@@ -2,6 +2,11 @@
     text-align: center;
     font-size: 30px;
 }
+.outter
+{
+  margin: 10%;
+}
+
 
 .triangle {
   position: relative;
@@ -34,7 +39,7 @@
     visibility: visible;
 }
 
-.triangle: div {
+.triangle div {
     color: white;
 }
  
@@ -49,7 +54,7 @@
 }
 
 
-  .triangle: div {
+  .triangle div {
     color: white;
   }
  
@@ -59,7 +64,7 @@
 }
 
 
-.triangle: div {
+.triangle div {
   color: white;
 }
  
@@ -74,7 +79,7 @@
 }
 
 
-.triangle: div {
+.triangle div {
   color: white;
 }
 
@@ -89,7 +94,7 @@
 }
 
 
-.triangle: div {
+.triangle{
   color: white;
 }
 
@@ -103,7 +108,7 @@
     visibility: visible;
 }
 
-.triangle: div {
+.triangle div {
   color: white;
 }
 
@@ -144,9 +149,3 @@
     position: relative;
     font-family: sans-serif;
 }
-
-
-
-
-
-

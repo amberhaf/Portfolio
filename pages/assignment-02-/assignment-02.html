@@ -12,6 +12,8 @@
         
     </head>
     <body>  
+    <h1 class="title">Simon Memory Game for Web Information Processing</h1>
+
         <!--Each div element represents a circle or button -->
         <div class="wrapper">
   <div class="dot big-dot" id="d5">
@@ -29,6 +31,32 @@
     <div class="dot" id="d3" onClick="user(3)"></div>
     <div class="dot" id="d4" onClick="user(4)"></div>
 </div>
+<div class="outter">
+<h3>How to play:</h3>
+<ol>
+   <li> Click the START button	to	begin, the game	status indicator light below the START	
+    button	switches from RED to GREEN and game begins after 3 seconds.	
+   </li>
+   <li> Simon will give the first signal	by randomly	flashing a coloured button.	Repeat the signal by clicking the	
+    same colour	buGon.	</li>
+    <li> Simon will duplicate the	first signal and add one. Repeat these	 two	 signals	by	clicking	 the	 same	
+    colour	buttons, in	order. </li>	
+    <li>Simon will duplicate	these first	two	signals	and	add	one.</li>
+    <li> Continue	playing	as long	as you	can	repeat each	sequence of	signals	correctly. After the 5th, 9th	
+    and	13th signals in	a sequence,	Simon automatically	speeds up the interval between signals.	</li>
+    <li> If you fail to repeat a sequence exactly, or	if you take	more than 5 seconds to repeat a	signal,	
+    Simon responds by flashing all four buttons	simultaneously five	times. This	means you have lost,	
+    and	the	sequence of	signals	ends. The game status indicator	switches from GREEN	to RED and you	
+    will have to click START button	to begin a new game.</li>		
+    <li> Your	level is shown in the display to the right of the START	button.	The	all-time highest score is shown	in the	
+    display	to	the	left of	the	START button.</li>	
+</ol>
+    <h3>Requirements:</h3>
+    <p> An Interactive simon game that tests how well a player can repeat a sequence of colours.
+        Only HTML elements were used to	create	the	game, no images were used. Colour and other styling were achieved using
+        CSS. “Pure”	 Javascript was used only, JQuery or any other Framework was not allowed.
+    </p>
+    </div>
         <script src="assignment-02.js"></script>
     </body>
 </html>
